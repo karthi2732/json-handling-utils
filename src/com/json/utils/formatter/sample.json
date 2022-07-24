@@ -1,0 +1,16 @@
+{
+  "data": [{
+    "type": "articles",
+    "id": "1",
+    "attributes": {
+      "title": "Json Formatter", "body": "The shortest article. Ever."
+    }
+  }],
+
+
+  "included": [
+    {"type": "people", "id": "42",
+      "attributes": {"name": "John"}
+    }
+  ]
+}
